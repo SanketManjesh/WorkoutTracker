@@ -1,0 +1,19 @@
+.mainContainer {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+
+.tab {
+    width: 150px;
+    margin: 20px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight:400;
+}
+
+.tab > a {
+    color: white;
+    text-decoration: none;
+}

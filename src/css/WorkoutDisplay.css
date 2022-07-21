@@ -1,0 +1,30 @@
+.workoutDisplayContainer {
+    display: grid;
+    justify-items: center;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.displayLinks {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 80px; 
+    column-gap: 250px;
+    width: 90%;
+}
+
+.displayLinks a:hover {
+    cursor: pointer;
+    color: #87cefa!important;
+    border-bottom: 2px solid #87cefa!important;
+    padding-bottom: 2px!important
+}
+
+.workoutCalendar {
+    margin-top: 70px;
+    width: 90%;
+    display: grid;
+    justify-items: center;
+}
+ 

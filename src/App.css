@@ -1,0 +1,16 @@
+.App {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+}
+
+.headerGrid {
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
+
+.workoutDisplay {
+  
+}
+.workoutSideGrid {
+  background-color: #d3d3d3;
+}

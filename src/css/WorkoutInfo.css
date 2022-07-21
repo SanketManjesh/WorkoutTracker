@@ -1,0 +1,236 @@
+.infoContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    width: 90%;
+    height: 280px;
+    border-radius: 5px;
+    justify-items: center;
+    row-gap: 40px;
+}
+
+.noEntryText {
+    grid-column: 1/-1;
+    font-size: 32px;
+}
+
+.titleDesign {
+    grid-column: 1/-1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    background-color: #303030;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 50px;
+    color: #F5FFFA
+}
+
+.date {
+    /* padding-top: 15px;
+    padding-left: 15px; */
+    font-size: 30px;
+}
+
+
+.input {
+    border: none;
+    border-bottom: 1px solid #F5FFFA;
+    background: transparent;
+    color: #F5FFFA;
+}
+
+.input::placeholder {
+    color: white;
+}
+
+.input:focus{
+    outline: none;
+}
+
+.submitChanges {
+    grid-column: 1/-1;
+}
+
+.submitChanges > button {
+    color: white;
+    background-color: turquoise;
+    width: 260px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: bold;
+    outline: none;
+}
+
+.buttonInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 15px;
+}
+
+.addEntry {
+    grid-column: 1/-1;
+}
+
+.addEntry > button {
+    color: white;
+    background-color: #1E90FF;
+    width: 260px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: bold;
+    outline: none;
+}
+
+.addButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 15px;
+}
+
+.enteredContainer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-top: 40px;
+    row-gap: 10px;
+    column-gap: 70px;
+    background-color: #13274F;
+    height: 310px;
+    justify-items: center;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.titleEntered {
+    display: flex;
+    grid-column: 1/-1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    column-gap: 30px;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+
+}
+
+.titleEntered >div:nth-child(2) {
+    font-size: 30px;
+}
+
+.entered {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 60px;
+    width: 280px;
+    border-radius: 10px;
+    background-color: #72A0C1;
+    color: white;
+    justify-items: center;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.sets2 {
+    border: 1px dotted #87cefa;
+    grid-column: 1/3;
+    background-color: #002D62;
+}
+
+.sets2 > div:nth-child(1) {
+    width: 90px
+}
+.sets2 > div:nth-child(2) {
+    font-size: 25px;
+    width: 90px;
+    text-align: center;
+}
+.reps2 {
+    border: 1px dotted white;
+    grid-column: 3/5;
+}
+
+.reps2 > div:nth-child(1) {
+    /* border: 1px solid black; */
+    width: 110px
+}
+.reps2 > div:nth-child(2) {
+    font-size: 25px;
+    /* border: 1px solid black; */
+    width: 110px;
+    text-align: center;
+}
+.max2 {
+    border: 1px dotted #87cefa;
+    grid-column: 5/7;
+    background-color: #002D62;
+}
+
+.max2 > div:nth-child(1) {
+    width: 80px
+}
+.max2 > div:nth-child(2) {
+    font-size: 20px;
+    width: 80px;
+    text-align: center;
+}
+
+.editChanges {
+    display: grid;
+    /* border: 1px solid black; */
+    grid-column: 2/4;
+}
+
+.deleteEntry {
+    display: grid;
+    /* border: 1px solid blue; */
+    grid-column: 4/6;
+}
+
+.deleteButtonEntries {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 15px;
+}
+
+.editChanges > button {
+    grid-column: 1/-1;
+    border-radius: 10px;
+    width: 260px;
+    height: 50px;
+    font-weight: bold;
+    background-color: #1E90FF;
+    color: white
+}
+
+.editButtonEntries {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 15px;
+}
+
+.deleteEntry > button {
+    grid-column: 1/-1;
+    border-radius: 10px;
+    width: 260px;
+    height: 50px;
+    font-weight: bold;
+    background-color: #B22222;
+    color: white
+}
+
+
+
+
