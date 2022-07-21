@@ -25,6 +25,6 @@ yarn-error.log*
 #uri
 src/server/uri.js 
 
-/package.lock.json
+/package-lock.json
 
 
